@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Turísticos na Europa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 1rem 0;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            padding: 1rem;
+        }
+        .card-title {
+            font-size: 1.5rem;
+            margin: 0 0 1rem;
+        }
+        .card-description {
+            font-size: 1rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lugares Turísticos na Europa</h1>
+    </header>
+    <div class="container">
+        <div class="card">
+            <img src="paris.jpg" alt="Torre Eiffel, Paris">
+            <div class="card-content">
+                <h2 class="card-title">Paris, França</h2>
+                <p class="card-description">A capital francesa é famosa por seus marcos icônicos como a Torre Eiffel, o Louvre e a Catedral de Notre-Dame. Paris é também um centro de cultura, moda e gastronomia, oferecendo uma experiência inesquecível aos visitantes.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="rome.jpg" alt="Coliseu, Roma">
+            <div class="card-content">
+                <h2 class="card-title">Roma, Itália</h2>
+                <p class="card-description">Roma é um verdadeiro museu a céu aberto. Conhecida como a "Cidade Eterna", abriga tesouros históricos e culturais como o Coliseu, o Fórum Romano e a Basílica de São Pedro. Cada esquina da cidade guarda uma história fascinante.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="london.jpg" alt="Big Ben, Londres">
+            <div class="card-content">
+                <h2 class="card-title">Londres, Reino Unido</h2>
+                <p class="card-description">Londres é uma metrópole vibrante que mistura tradição e modernidade. Visite o Palácio de Buckingham, o Big Ben e a Torre de Londres, além de explorar seus inúmeros museus, teatros e parques.</p>
+            </div>
+        </div>
+        <!-- Adicione mais cards conforme necessário -->
+    </div>
+</body>
+</html>
